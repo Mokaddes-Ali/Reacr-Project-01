@@ -1,0 +1,19 @@
+/* Navbar Section CSS Start */
+.navbgcolor{
+  background-color: #0B5ED7;
+}
+
+.NavContainer{
+  height: 40px; 
+}
+
+.ListOne{
+  margin-right: 10px;
+  color: white;
+}
+
+.ListOne:hover{
+  color: orange;
+  transition: 0.5s;
+}
+/* Navbar Section CSS End */

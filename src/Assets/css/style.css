@@ -1,0 +1,433 @@
+/* Navbar Section CSS Start */
+.navbgcolor{
+    background-color: #659aeb;
+}
+
+.Logos{
+    background-color: white;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.NavContainer{
+    height: 40px; 
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin:0 10px;
+    color: white;
+}
+
+ul li:hover{
+    color: orange;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+
+.ones{
+    color: rgb(241, 11, 11);
+}
+/* Navbar Section CSS End */
+
+
+/* TopHeader Section CSS Start */
+.TopHeaderContainer{
+    min-height: 500px;
+    background-image: url("../images/myBackground.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.TopOverlay{
+    min-height: 500px;
+    background-color: rgba(3, 3, 3, 0.61);
+}
+
+.HeaderContent{
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.TopHeading{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+
+.TopSubHeading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* TopHeader Section CSS End */
+
+
+/* My Services Section CSS Start */
+.ServicesContainer{
+    min-height: 450px;
+}
+
+.ServicesHeader{
+    font-size: 25px;
+    color: #0074E6;
+    font-weight: 600;
+}
+
+.CardOne, .CardTwo, .CardThree{
+    padding-left:20px;
+    padding-right: 20px;
+      
+}
+
+.CardOne:hover{
+    transform: translateY(-10px);
+    transition: 0.5s ease all;
+    border: 1px solid #0073e679;
+}
+
+.CardTwo:hover{
+    transform: translateY(-10px);
+    transition: 0.8s ease all;
+    border: 1px solid #0073e679;
+   
+}
+
+.CardThree:hover{
+    transform: translateY(-10px);
+    transition: 0.8s ease all;
+    border: 1px solid #0073e679;
+}
+
+.iconOne, .iconTwo, .iconThree{
+    font-size: 130px;
+    padding-top: 40px;
+    margin: 0 auto;
+    color: #0074E6;
+}
+
+.FirstContentHeading, .SecondContentHeading, .ThirdContentHeading{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(31, 29, 29, 0.795);
+    padding-bottom: 5px;
+}
+
+.FirstContentSubHeading, .SecondContentSubHeading, .ThirdContentSubHeading{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+    padding-bottom: 40px;
+}
+/* My Services Section CSS End */
+
+
+/* Technology Used Section CSS Start */
+.TechnologyContainer{
+    min-height: 600px;
+}
+
+.TechnologyHeader{
+    font-size: 30px;
+    color: #0074E6;
+    font-weight: 600;
+}
+
+.SimpleContent{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+/* Technology Used Section CSS End */
+
+
+/* Total Works Section CSS Start */
+.TotalWorksContainer{
+    min-height: 350px;
+    background-image: url("../images//myBackground.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TopWorksOvarlay{
+    min-height: 350px;
+    width: 100%;
+    background-color: #4C4C4C;
+}
+
+.ProjectsCollum, .ClientsCollum{
+    padding-top: 10%;
+}
+
+.TotalProjects, .TotalClients{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+.ProjectsHeader, .ClientsHeader{
+    font-size: 20px;
+    color: white;
+}
+
+.ProjectsUnderline, .ClientsUnderline{
+    height: 1px;
+    width: 65px;
+    background-color: white;
+}
+
+.WorksCard{
+    margin-top: 16%;
+}
+
+.WorksCard:hover{
+    transform: translateY(-10px);
+    transition: 0.8s ease all;
+    border: 1px solid #0073e679;
+}
+
+.WorksHeader{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(24, 23, 23, 0.87);
+}
+
+.Icon{
+    font-size: 18px;
+    color: #147EE8;
+    margin-right: 5px;
+   
+}
+
+.TotalWorksCardBody{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.Content{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+
+/* Total Works Section CSS End */
+
+
+/* Recent Project Section CSS Start */
+.RecentProjectContainer{
+    min-height: 650px;
+}
+
+.RecentProjectHeader{
+    font-size: 30px;
+    color: #0074E6;
+    font-weight: 600;
+}
+
+.FirstCardTittle, .SecondCardTittle, .ThirdCardTittle{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(31, 29, 29, 0.795);
+}
+
+.FirstCardContent, .SecondCardContent, .ThirdCardContent{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+    padding: 0px 25px;
+}
+
+.RecentProjectCards:hover{
+    transform: translateY(-10px);
+    transition: 0.8s ease all;
+    border: 1px solid #0073e679;
+}
+/* Recent Project Section CSS End */
+
+
+/* Our Courses Section CSS Start */
+.OurCoursesContainer{
+    min-height: 650px;
+}
+
+.OurCoursesHeader{
+    font-size: 25px;
+    color: #0074E6;
+    font-weight: 600; 
+}
+
+.CourseHeading{
+    font-size: 22px;
+    font-weight: 600; 
+}
+
+.CourseContent{
+    font-size: 20px;
+}
+
+.CourseDetails{
+    color: #0074E6;
+}
+
+.CoursesImage:hover{
+    transform: translateY(-10px);
+    transition: 0.8s ease all;
+    border: 1px solid #0073e679;
+}
+/* Our Courses Section CSS end */
+
+
+/* Vedio Section CSS Start */
+.VedioSectionContainer{
+    min-height: 500px;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 rgba(202, 198, 198, 0.705);
+}
+
+.VedioSectionHeader{
+    font-size: 25px;
+    color: #0074E6;
+    font-weight: 600; 
+    padding-bottom: 15px;
+}
+
+.VedioSectionContent{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+
+.VedioIcon{
+    font-size: 40px;
+    color: #0074E6;
+    cursor: pointer;
+}
+/* Vedio Section CSS End */
+
+
+/* Client Review Section CSS Start */
+.ClientReviewContainer{
+    min-height: 500px;
+    padding: 100px;
+}
+
+.ClientReviewHeader{
+    font-size: 25px;
+    color: #0074E6;
+    font-weight: 600; 
+    padding-bottom: 15px; 
+}
+
+.ClientReviewContent{
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+/* Client Review Section CSS End */
+
+
+/* Footer Top Section CSS Start */
+.FooterTopContainer{
+    min-height: 200px;
+}
+
+.ShadowTop{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(233, 226, 226, 0.815);
+}
+
+.FooterHeader{
+    font-size: 20px;
+    font-weight: 550;
+    color: rgba(17, 16, 16, 0.801);
+}
+
+.FooterFirst{
+    line-height: 10px;
+    font-size: 15px;
+    color: #2F80E8;
+    font-weight: 600;
+}
+
+.FooterContent{
+    line-height: 10px;
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.795);
+}
+
+.FooterIcons{
+    margin-right: 5px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.EmptySpace{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    background-color: #0074E6;
+}
+/* Footer Top Section CSS End */
+
+
+.aboutpage{
+    background-color: #4C4C4C;
+}
+
+
+
+
+/*PageTitle start*/
+
+.TitleHeaderContainer{
+    min-height: 300px;
+    background-image: url("../images/pageimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.TitleOverlay{
+    min-height: 300px;
+    background-color: rgba(3, 3, 3, 0.61);
+}
+
+.HeaderContent{
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.TitleHeading{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* PageTitle End */
+
+/* Forms Start */
+.Forms{
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.FormsHeader{
+          color: #4C4C4C;
+          font-size: 15px;
+}
+.FormsLeft{
+    margin-left: 10px;
+}
+
